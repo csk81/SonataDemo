@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.sonata.two.Calculator;
 
-
+@SpringBootTest
 class DemoApplicationTests {
 	Calculator c1 = new Calculator();
 	@Test
